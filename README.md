@@ -2,23 +2,25 @@
 fun getAbout(): AndroidDeveloper {
     val fullName = "Patryk Miś"
     val description = """
-        Passionate about fostering inclusivity in technology, my focus revolves around enhancing Android accessibility and pioneering the development of fully open-source screen readers. With each line of code, I aim to bridge the digital divide, ensuring that every user, regardless of ability, can navigate and interact seamlessly with digital interfaces.
+        I care about making technology work for everyone. My main focus is Android accessibility and building open-source screen readers that give real independence to users who rely on them.
 
-        📱 Android Accessibility:
-        Diving deep into the realms of Android development, I am dedicated to crafting accessible solutions that empower users with diverse needs. From exploring inclusive UI/UX design to implementing accessibility features, my goal is to contribute to a more accessible Android ecosystem.
+        📱 Android Accessibility
+        I explore how Android can be more inclusive - from accessible UI design to improving system-level interaction for assistive tech users.
 
-        🌐 FLOSS Screen Readers Development:
-        Championing the principles of Free and Libre Open-Source Software (FLOSS), I actively contribute to the development of screen readers that break down barriers. By embracing openness and collaboration, my work aims to create a more transparent and accessible digital experience for everyone.
+        🌐 Open-Source Screen Readers
+        I support the open software movement by contributing to free, community-driven screen reader projects. The goal is simple: open code, open access, equal opportunity.
 
-        Let's code for a future where technology truly serves all! 🚀
+        Technology should serve people - all people.
     """.trimIndent()
 
     val skills = mapOf(
-        "HTML" to "2007~Today, 4.01 Strict ~ 5.2",
-        "ARIA" to "2015 ~ Today, 1.0 ~ 1.2", // Accessible Rich Internet Applications
+        "HTML" to "2007 ~ Today, from 4.01 Strict to WHATWG HTML Living Standard",
+        "ARIA" to "2015 ~ Today, evolving WAI-ARIA spec",
         "Kotlin" to "basic",
         "Java" to "basic",
-        "C/C++" to "Basic"
+        "C/C++" to "basic",
+        "Rust" to "basic",
+        "Python" to "basic"
     )
 
     return AndroidDeveloper(fullName, description, skills)
